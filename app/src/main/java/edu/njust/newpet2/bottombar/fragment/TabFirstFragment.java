@@ -10,6 +10,7 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -27,10 +28,9 @@ public class TabFirstFragment extends Fragment {
     protected View view; // 声明一个视图对象
     protected Context mContext; // 声明一个上下文对象
 
-    private LinearLayout myLinearLayout;
-    private TextView myTextView;
-    private boolean isClicked = false;
-    private RelativeLayout relativeLayout1,relativeLayout2;
+    private LinearLayout myLinearLayout11,myLinearLayout12;
+    private FrameLayout framelayout1;
+    private boolean isClicked = true;
 
 
     @Override
@@ -38,16 +38,20 @@ public class TabFirstFragment extends Fragment {
         mContext = getActivity(); // 获取活动页面的上下文
         // 根据布局文件fragment_tab_first.xml生成视图对象
         view = inflater.inflate(R.layout.fragment_tab_first, container, false);
-        myLinearLayout = view.findViewById(R.id.myLinearLayout);
 
-        myLinearLayout.setOnClickListener(new View.OnClickListener() {
+        framelayout1 = view.findViewById(R.id.framelayout1);
+        myLinearLayout11 = view.findViewById(R.id.myLinearLayout11);
+        myLinearLayout12 = view.findViewById(R.id.myLinearLayout12);
+        framelayout1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // 切换背景
                 if (isClicked) {
-
+                    myLinearLayout12.setVisibility(View.VISIBLE);
+                    myLinearLayout11.setVisibility(View.INVISIBLE);
                 } else {
-
+                    myLinearLayout12.setVisibility(View.INVISIBLE);
+                    myLinearLayout11.setVisibility(View.VISIBLE);
                 }
                 isClicked = !isClicked;
             }

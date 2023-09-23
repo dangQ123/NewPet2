@@ -41,6 +41,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
     implementation 'com.github.zcweng:switch-button:0.0.3@aar'
+    implementation 'com.github.zhouzhuo810:ZzHorizontalProgressBar:1.1.1'
 
 //
 //    implementation 'com.github.ittianyu:BottomNavigationViewEx:2.0.4'

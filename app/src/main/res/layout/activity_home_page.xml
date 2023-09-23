@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,27 +11,31 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/vp_content"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_height="match_parent"
+         />
 
     <RelativeLayout
-        android:background="@color/white"
-        android:layout_width="match_parent"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+
         <RadioGroup
-            android:background="@drawable/bottombarbacpic"
-            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bottombarnew"
             android:id="@+id/rg_tabbar"
-            android:layout_width="390dp"
-            android:layout_height="80dp"
-            android:paddingBottom="25dp"
-            android:orientation="horizontal">
+            android:layout_width="290dp"
+            android:layout_height="61dp"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            >
 
             <RadioButton
                 android:id="@+id/rb_1"
                 style="@style/TabButton"
                 android:checked="true"
-                android:drawableBottom="@drawable/tab_first_selector" >
+                android:drawableBottom="@drawable/tab_first_selector">
+
             </RadioButton>
 
             <RadioButton
@@ -47,4 +51,4 @@
         </RadioGroup>
     </RelativeLayout>
 
-</LinearLayout>
+</FrameLayout>
