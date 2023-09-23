@@ -60,129 +60,129 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-                <LinearLayout
-                    android:id="@+id/myLinearLayout"
-                    android:orientation="vertical"
-                    android:background="@drawable/drawer1bacmul"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="370dp"
-                    android:layout_height="540dp">
+        <LinearLayout
+            android:id="@+id/myLinearLayout11"
+            android:orientation="vertical"
+            android:background="@drawable/drawer1bacmul"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="370dp"
+            android:layout_height="540dp">
 
-                </LinearLayout>
+        </LinearLayout>
 
-<!--        <LinearLayout-->
-<!--            android:id="@+id/myLinearLayout12"-->
-<!--            android:orientation="vertical"-->
-<!--            android:background="@drawable/drawer1bac"-->
-<!--            android:layout_gravity="center_horizontal"-->
-<!--            android:layout_width="370dp"-->
-<!--            android:layout_height="540dp">-->
+        <LinearLayout
+            android:id="@+id/myLinearLayout12"
+            android:orientation="vertical"
+            android:background="@drawable/drawer1bac"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="370dp"
+            android:layout_height="540dp">
 
-<!--            <TextView-->
-<!--                android:textColor="#ffFFFFFF"-->
-<!--                android:textSize="24sp"-->
-<!--                android:textFontWeight="500"-->
-<!--                android:layout_marginTop="25dp"-->
-<!--                android:layout_marginLeft="50dp"-->
-<!--                android:text="电源"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content">-->
+            <TextView
+                android:textColor="#ffFFFFFF"
+                android:textSize="24sp"
+                android:textFontWeight="500"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="50dp"
+                android:text="电源"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
-<!--            </TextView>-->
+            </TextView>
 
-<!--            <RelativeLayout-->
-<!--                android:layout_marginTop="8dp"-->
-<!--                android:layout_gravity="center_horizontal"-->
-<!--                android:layout_width="250dp"-->
-<!--                android:layout_height="wrap_content">-->
+            <RelativeLayout
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content">
 
-<!--                <ImageView-->
-<!--                    android:id="@+id/drawer1icon1"-->
-<!--                    android:src="@drawable/drawer1icon1"-->
-<!--                    android:layout_width="35dp"-->
-<!--                    android:layout_height="35dp">-->
+                <ImageView
+                    android:id="@+id/drawer1icon1"
+                    android:src="@drawable/drawer1icon1"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp">
 
-<!--                </ImageView>-->
-<!--                <TextView-->
-<!--                    android:layout_marginLeft="19dp"-->
-<!--                    android:layout_centerVertical="true"-->
-<!--                    android:layout_toRightOf="@id/drawer1icon1"-->
-<!--                    android:textColor="#ffFFFFFF"-->
-<!--                    android:textSize="18sp"-->
-<!--                    android:layout_gravity="center_vertical"-->
-<!--                    android:text="开机"-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content">-->
+                </ImageView>
+                <TextView
+                    android:layout_marginLeft="19dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/drawer1icon1"
+                    android:textColor="#ffFFFFFF"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_vertical"
+                    android:text="开机"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
 
-<!--                </TextView>-->
-<!--                <com.suke.widget.SwitchButton-->
-<!--                    android:layout_alignParentRight="true"-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content">-->
+                </TextView>
+                <com.suke.widget.SwitchButton
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
 
-<!--                </com.suke.widget.SwitchButton>-->
+                </com.suke.widget.SwitchButton>
 
-<!--            </RelativeLayout>-->
+            </RelativeLayout>
 
-<!--            <RelativeLayout-->
-<!--                android:layout_marginTop="8dp"-->
-<!--                android:layout_gravity="center_horizontal"-->
-<!--                android:layout_width="250dp"-->
-<!--                android:layout_height="wrap_content">-->
+            <RelativeLayout
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content">
 
-<!--                <ImageView-->
-<!--                    android:id="@+id/drawer1icon2"-->
-<!--                    android:src="@drawable/drawer1icon2"-->
-<!--                    android:layout_width="35dp"-->
-<!--                    android:layout_height="35dp">-->
+                <ImageView
+                    android:id="@+id/drawer1icon2"
+                    android:src="@drawable/drawer1icon2"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp">
 
-<!--                </ImageView>-->
-<!--                <TextView-->
-<!--                    android:layout_marginLeft="19dp"-->
-<!--                    android:layout_centerVertical="true"-->
-<!--                    android:layout_toRightOf="@id/drawer1icon2"-->
-<!--                    android:textColor="#ffFFFFFF"-->
-<!--                    android:textSize="18sp"-->
-<!--                    android:layout_gravity="center_vertical"-->
-<!--                    android:text="待机"-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content">-->
+                </ImageView>
+                <TextView
+                    android:layout_marginLeft="19dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/drawer1icon2"
+                    android:textColor="#ffFFFFFF"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_vertical"
+                    android:text="待机"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
 
-<!--                </TextView>-->
-<!--                <com.suke.widget.SwitchButton-->
-<!--                    android:layout_alignParentRight="true"-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content">-->
+                </TextView>
+                <com.suke.widget.SwitchButton
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
 
-<!--                </com.suke.widget.SwitchButton>-->
+                </com.suke.widget.SwitchButton>
 
-<!--            </RelativeLayout>-->
+            </RelativeLayout>
 
-<!--            <RelativeLayout-->
-<!--                android:layout_marginTop="8dp"-->
-<!--                android:layout_gravity="center_horizontal"-->
-<!--                android:layout_width="250dp"-->
-<!--                android:layout_height="wrap_content">-->
+            <RelativeLayout
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content">
 
-<!--                <ImageView-->
-<!--                    android:id="@+id/drawer1icon3"-->
-<!--                    android:src="@drawable/drawer1icon3"-->
-<!--                    android:layout_width="35dp"-->
-<!--                    android:layout_height="35dp">-->
+                <ImageView
+                    android:id="@+id/drawer1icon3"
+                    android:src="@drawable/drawer1icon3"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp">
 
-<!--                </ImageView>-->
+                </ImageView>
 
-<!--                <ImageView-->
-<!--                    android:src="@drawable/chongqibutton"-->
-<!--                    android:layout_alignParentRight="true"-->
-<!--                    android:layout_width="57dp"-->
-<!--                    android:layout_height="34dp">-->
+                <ImageView
+                    android:src="@drawable/chongqibutton"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="57dp"
+                    android:layout_height="34dp">
 
-<!--                </ImageView>-->
+                </ImageView>
 
-<!--            </RelativeLayout>-->
+            </RelativeLayout>
 
-<!--        </LinearLayout>-->
+        </LinearLayout>
 
     </FrameLayout>
 
