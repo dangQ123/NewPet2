@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >
+
+    <Button
+        android:id="@+id/backicon"
+        android:background="@drawable/backicon"
+        android:layout_width="11.98dp"
+        android:layout_height="20.79dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="10dp"
+        >
+
+    </Button>
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="95dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:text="账号登录"
+                android:textColor="#E86464"
+                android:textSize="34sp"
+                android:lineSpacingExtra="7.2sp"
+                android:textFontWeight="700"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <Button
+                android:textColor="#ff000000"
+                android:textSize="14sp"
+                android:lineSpacingExtra="8.2sp"
+                android:textFontWeight="400"
+                android:layout_marginLeft="29dp"
+                android:background="@android:color/transparent"
+                android:text="使用验证码登录  >"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/login1pic"
+            android:layout_width="212dp"
+            android:layout_height="189dp">
+
+        </ImageView>
+    </LinearLayout>
+
+
+    <edu.njust.newpet2.customview.PhoneInputView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp">
+
+    </edu.njust.newpet2.customview.PhoneInputView>
+
+    <edu.njust.newpet2.customview.PasswordView
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </edu.njust.newpet2.customview.PasswordView>
+
+    <Button
+        android:enabled="false"
+        android:id="@+id/accountbutton"
+        android:layout_width="343dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:lineSpacingExtra="2.4sp"
+        android:text="登录"
+        android:background="@drawable/accountloginretangle"
+        android:textColor="#ffA8A8A8"
+        android:textFontWeight="700"
+        android:textSize="18sp">
+
+    </Button>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentLeft="true"
+            android:textColor="#ff3E85FF"
+            android:textSize="14sp"
+            android:lineSpacingExtra="7.2sp"
+            android:textFontWeight="400"
+            android:background="@android:color/transparent"
+            android:text="邮箱登录"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:layout_marginRight="30dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#ffE22727"
+            android:textSize="14sp"
+            android:lineSpacingExtra="7.2sp"
+            android:textFontWeight="400"
+            android:background="@android:color/transparent"
+            android:text="忘记密码"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/wechatloginicon"
+        android:layout_marginTop="90dp"
+        android:alpha="1">
+    </Button>
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center">
+
+        <CheckBox
+            android:id="@+id/radioButtonAgreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#3E85FF"
+            android:paddingLeft="5dp"
+            android:text="@string/arragementacc"
+            android:textColor="#A8A8A8"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/arrangementcontent"
+            android:textColorLink="#3E85FF">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

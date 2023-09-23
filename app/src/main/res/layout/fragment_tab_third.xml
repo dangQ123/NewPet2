@@ -1,0 +1,346 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_gravity="right|top"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/settingbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/headpic"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="21dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="17dp"
+            android:text="用户132456"
+
+            android:textSize="17sp"
+            android:textColor="#ff000000"
+            >
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="140dp"
+            android:src="@drawable/moresmallbutton">
+
+        </ImageView>
+
+    </LinearLayout>
+    <RelativeLayout
+
+        android:background="@drawable/fragmenttwo_tangle_1"
+        android:outlineSpotShadowColor="@color/light_grey"
+        android:elevation="35dp"
+        android:layout_marginTop="22dp"
+        android:layout_width="320dp"
+        android:layout_height="86dp">
+
+        <TextView
+            android:layout_marginLeft="22dp"
+            android:text="宠物0"
+            android:textColor="#ff000000"
+            android:textSize="14sp"
+            android:lineSpacingExtra="4.2sp"
+            android:textFontWeight="500"
+            android:fontFamily="@font/notosanssc_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="25dp"
+            android:text="查看全部 >"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <ImageView
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="22dp"
+            android:background="@drawable/petaddbutton"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@drawable/whitebuttontangle"
+        android:outlineSpotShadowColor="@color/light_grey"
+        android:elevation="35dp"
+        android:layout_marginTop="22dp"
+        android:layout_width="320dp"
+        android:layout_height="86dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/mine2_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </ImageView>
+
+                <TextView
+                    android:textColor="#ff000000"
+                    android:fontFamily="@font/notosanssc_black"
+                    android:text="配件耗材"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/mine2_2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp">
+
+                </ImageView>
+
+                <TextView
+
+                    android:textColor="#ff000000"
+                    android:fontFamily="@font/notosanssc_black"
+                    android:text="购物车"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/mine2_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </ImageView>
+
+                <TextView
+                    android:textColor="#ff000000"
+                    android:fontFamily="@font/notosanssc_black"
+                    android:text="订单管理"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/whitebuttontangle"
+        android:outlineSpotShadowColor="@color/light_grey"
+        android:elevation="35dp"
+        android:layout_marginTop="22dp"
+        android:layout_width="320dp"
+        android:layout_height="120dp">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <ImageView
+                android:layout_marginLeft="18dp"
+                android:src="@drawable/mine3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+            <TextView
+                android:textColor="#ff000000"
+
+                android:lineSpacingExtra="9sp"
+                android:textFontWeight="500"
+                android:fontFamily="@font/notosanssc_black"
+                android:layout_marginLeft="12.45dp"
+                android:text="我的相册"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:src="@drawable/moresmallbutton">
+
+            </ImageView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <ImageView
+                android:layout_marginLeft="18dp"
+                android:src="@drawable/mine3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+            <TextView
+                android:textColor="#ff000000"
+                android:lineSpacingExtra="9sp"
+                android:textFontWeight="500"
+                android:fontFamily="@font/notosanssc_black"
+                android:layout_marginLeft="12.45dp"
+                android:text="下载管理"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:src="@drawable/moresmallbutton">
+
+            </ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/whitebuttontangle"
+        android:outlineSpotShadowColor="@color/light_grey"
+        android:elevation="85dp"
+        android:layout_marginTop="35dp"
+        android:layout_width="320dp"
+        android:layout_height="120dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:src="@drawable/mine4_1">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.45dp"
+                android:fontFamily="@font/notosanssc_black"
+                android:lineSpacingExtra="9sp"
+                android:text="智能客服"
+                android:textColor="#ff000000"
+                android:textFontWeight="500">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:src="@drawable/moresmallbutton">
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <ImageView
+                android:layout_marginLeft="18dp"
+                android:src="@drawable/mine4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+            <TextView
+                android:textColor="#ff000000"
+                android:lineSpacingExtra="9sp"
+                android:textFontWeight="500"
+                android:fontFamily="@font/notosanssc_black"
+                android:layout_marginLeft="12.45dp"
+                android:text="意见反馈"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:src="@drawable/moresmallbutton">
+
+            </ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

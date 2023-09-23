@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:drawable="@drawable/bottomicon2_press" />
+    <item android:drawable="@drawable/bottomicon2" />
+</selector>

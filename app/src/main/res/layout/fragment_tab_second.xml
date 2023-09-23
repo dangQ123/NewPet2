@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ballpageretanpic"
+        android:layout_width="335dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_marginTop="50dp"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center|top"
+            android:src="@drawable/playballpic">
+
+        </ImageView>
+
+        <FrameLayout
+            android:layout_marginTop="270dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:background="@drawable/sendballout"
+                android:layout_width="83dp"
+                android:layout_height="36dp">
+            </ImageView>
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#ffFFFFFF"
+                android:textSize="14sp"
+                android:textFontWeight="500"
+                android:fontFamily="@font/notosanssc_black"
+                android:text="弹出"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+        </FrameLayout>
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="357dp"
+            android:src="@drawable/ballbigbutton"
+            android:layout_width="264dp"
+            android:layout_height="264dp">
+
+        </ImageView>
+
+    </FrameLayout>
+
+</LinearLayout>
