@@ -60,13 +60,13 @@ public class Login2Activity extends AppCompatActivity {
         });
 
         accountbutton = findViewById(R.id.accountbutton);
-//        accountbutton.setOnClickListener(view -> {
-//            Intent intent = new Intent(this , InputVerifyActivity.class);
-//            Bundle bundle = new Bundle();
-//            bundle.putString("phonenumber", String.valueOf(editText.getText()));
-//            intent.putExtras(bundle);
-//            startActivity(intent);
-//        });
+        accountbutton.setOnClickListener(view -> {
+            Intent intent = new Intent(this , Login3Activity.class);
+            Bundle bundle = new Bundle();
+            bundle.putString("phonenumber", String.valueOf(editText.getText()));
+            intent.putExtras(bundle);
+            startActivity(intent);
+        });
 
         backicon = findViewById(R.id.backicon);
         backicon.setOnClickListener(view -> {
