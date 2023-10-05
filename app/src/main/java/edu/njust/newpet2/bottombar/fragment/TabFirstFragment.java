@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,7 +29,7 @@ public class TabFirstFragment extends Fragment {
     private LinearLayout myLinearLayout41,myLinearLayout42;
     private LinearLayout myLinearLayout51,myLinearLayout52;
     private FrameLayout framelayout1,framelayout2,framelayout3,framelayout4,framelayout5;
-    private boolean isClicked1 = true,isClicked2 = true,isClicked3 = true,isClicked4 = true,isClicked5 = true;
+    private boolean isClicked1 = true,isClicked2 = true,isClicked3 = false,isClicked4 = true,isClicked5 = true;
 
     private ImageView hoticon, coldicon , temppic;
     private static final int AllReady = 0, OneOpen = 1;
@@ -44,6 +45,7 @@ public class TabFirstFragment extends Fragment {
                     FrameLayout.LayoutParams.WRAP_CONTENT, // 宽度为WRAP_CONTENT
                     FrameLayout.LayoutParams.WRAP_CONTENT  // 高度为WRAP_CONTENT
             );
+            layoutParams[i].gravity = Gravity.CENTER_HORIZONTAL; // 设置布局的水平居中
         }
         if (status == AllReady){
 
@@ -149,14 +151,14 @@ public class TabFirstFragment extends Fragment {
         coldicon = view.findViewById(R.id.coldicon);
         temppic = view.findViewById(R.id.temppic);
         hoticon.setOnClickListener(view1 -> {
-            hoticon.setImageResource(R.drawable.hot_press);
+            hoticon.setImageResource(R.drawable.hot_new_press);
             coldicon.setImageResource(R.drawable.cold_notpress);
             temppic.setImageResource(R.drawable.hotpic);
             myLinearLayout32.setBackgroundResource(R.drawable.drawer3bac_hot);
 
         });
         coldicon.setOnClickListener(view1 -> {
-            hoticon.setImageResource(R.drawable.hot_notpress);
+            hoticon.setImageResource(R.drawable.hot_new_notpress);
             coldicon.setImageResource(R.drawable.cold_press);
             temppic.setImageResource(R.drawable.coldpic);
             myLinearLayout32.setBackgroundResource(R.drawable.drawer3bac);
