@@ -11,12 +11,9 @@ import edu.njust.newpet2.bottombar.fragment.TabThirdFragment;
 
 
 public class TabPagerAdapter extends FragmentPagerAdapter {
-
-
     public TabPagerAdapter(@NonNull FragmentManager fm) {
         super(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
     }
-
     @NonNull
     @Override
     public Fragment getItem(int position) {
@@ -33,7 +30,6 @@ public class TabPagerAdapter extends FragmentPagerAdapter {
             return null;
         }
     }
-
     @Override
     public int getCount() {
         return 3;

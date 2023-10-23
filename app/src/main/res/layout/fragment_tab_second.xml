@@ -9,7 +9,7 @@
         android:layout_gravity="center"
         android:background="@drawable/ballpageretanpic"
         android:layout_width="335dp"
-        android:layout_height="match_parent">
+        android:layout_height="650dp">
 
         <ImageView
             android:layout_marginTop="50dp"
